@@ -8,8 +8,6 @@
 #include "tvpgl.h"
 
 #include "png.h"
-#include "pngstruct.h"
-#include "pnginfo.h"
 
 #include "DebugIntf.h"
 #include "tjsDictionary.h"
@@ -363,7 +361,7 @@ void TVPLoadPNG(void* formatdata, void *callbackdata, tTVPGraphicSizeCallback si
 		sizecallback(callbackdata, width, height);
 
 		// load image
-		if(info_ptr->interlace_type == PNG_INTERLACE_NONE)
+		if(interlace_type == PNG_INTERLACE_NONE)
 		{
 			// non-interlace
 			if(do_convert_rgb_gray)

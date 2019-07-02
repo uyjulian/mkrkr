@@ -166,7 +166,7 @@ void sel_project_dir()
 
 
 extern void TVPGL_C_Init();
-extern void TVPInitTVPGL();
+extern "C" void TVPInitTVPGL();
 //---------------------------------------------------------------------------
 // TVPSystemInit : Entire System Initialization
 //---------------------------------------------------------------------------

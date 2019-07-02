@@ -11,7 +11,7 @@
 #include "AL/alc.h"
 #include "AL/al.h"
 #include "AL/alext.h"
-#include "AL/alut.h"
+// #include "AL/alut.h"
 #endif
 
 #include <map>

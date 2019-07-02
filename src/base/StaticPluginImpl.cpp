@@ -73,7 +73,7 @@ void TVPImportFunctions()
 {
 	TVPAddImportFunction("ncbind_V2Link",(void*)ncbind_V2Link);
 	TVPAddImportFunction("KAGParser_V2Link",(void*)KAGParser_V2Link);
-	TVPAddImportFunction("menu_V2Link",(void*)menu_V2Link);
+	// TVPAddImportFunction("menu_V2Link",(void*)menu_V2Link);
 	TVPAddImportFunction("layerExSave_V2Link",(void*)layerExSave_V2Link);
 	TVPAddImportFunction("fstat_V2Link",(void*)fstat_V2Link);
 	TVPAddImportFunction("json_V2Link",(void*)json_V2Link);
